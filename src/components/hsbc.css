@@ -1,0 +1,22 @@
+.shuru input{
+    display: block;
+    margin: 5px;
+}
+.shuru input.error{
+    border: 2px solid red;
+}
+.tiao {
+    width: 50px;
+    height: 50px;
+}
+.tiao .dark{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    pointer-events: none;
+}
+.tiao .light{
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+}
