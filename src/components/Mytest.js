@@ -1,5 +1,5 @@
 import React from 'react'
-import './hsbc.css'
+import './test.css'
 const projects = [{ id: 0, name: '' }, { id: 1, name: '花生' }, { id: 2, name: '苹果' }, { id: 3, name: '杨桃' }];
 
 // 效果：
@@ -7,7 +7,7 @@ const projects = [{ id: 0, name: '' }, { id: 1, name: '花生' }, { id: 2, name:
 // 2、刚开始进入页面，警告，输入框和下拉框都不会标红。但是跳转按钮不能点击
 // 3、当输入框或下拉框不符合规范的时候，标红！且弹出警告
 // 4、输入框或下拉框任一不符合规范，不能跳转
-export const Hsbc = () => {
+export const Mytest = () => {
     // 显示下拉框的组件 还是 显示两个输入框的组件，默认显示下拉框的
     const [isSelect, setIsSelect] = React.useState('radio1');
 

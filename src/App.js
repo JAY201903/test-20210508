@@ -1,9 +1,9 @@
 import logo from './logo.svg';
-import {Hsbc} from './components/Hsbc'
+import {Mytest} from './components/Mytest'
 
 function App() {
   return (
-    <Hsbc></Hsbc>
+    <Mytest></Mytest>
   );
 }
 
